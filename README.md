@@ -30,5 +30,5 @@ Folhas de estilo em cascata.
 
 **Result**
 <pre><code>
-    <h1 style="color: red;">Título da página</h1>
+    <img src="print.png" src="Título em vermelho">
 </code></pre>
