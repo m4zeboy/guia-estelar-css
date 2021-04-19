@@ -17,18 +17,17 @@ Folhas de estilo em cascata.
 ### Exemplo
 
 **HTML**
-<pre><code>
-    &lt;h1&gt;Título da página&lt;/h1&gt;
-</code></pre>
+```html
+    <h1>Título da Página</h1>
+```
 
 **CSS**
-<pre><code>
+```css
     h1 {
         color: red;
     }
-</code></pre>
+``` 
 
 **Result**
-<pre><code>
-    <img src="print.png" src="Título em vermelho">
-</code></pre>
+
+![título em vermelho](./print.png)
