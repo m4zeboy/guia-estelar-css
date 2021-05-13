@@ -15,9 +15,15 @@ section {
     padding: 10px;
 }
 
+/* Important */
+h3 {
+    color:  black !important;
+}
+
 /* especificidade */
 
-h2 /* 1pt */ {
+h2,
+h3 /* 1pt */ {
     color: gray;
 }
 
@@ -30,3 +36,4 @@ h2 span#color-red /* 100 + 1 + 1 = 102pt */{
     color: rgb(228, 54, 54);
     font-size: 40px;
 }
+

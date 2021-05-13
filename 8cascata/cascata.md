@@ -20,10 +20,18 @@ inline > tag style > link:css
 
 ## Especificidade
 
-Para que não haja confusão na hora de aplicar os estilos, o navegador realiza um cálculo que verifica qual é a força da especificidade de uma regra. Logo a mais forte será aplicada.
+Para que não haja confusão na hora de aplicar os estilos, o navegador faz um cálculo que verifica qual é a força da especificidade de uma regra. Logo a mais forte será aplicada.
 
 * 0pt - Seletor universal (*), combinators e pseudo classes de negação (:not).
 * 1pt - Seletor de elemento e pseudo elementos.
 * 10pt - Classes e atributos.
 * 100pt - ID.
 * 1000pt - inline style.
+
+## Regra !imporant
+
+Essa regra torna a qual foi aplicada muito importante, sobrescrevendo **TODAS** as demais.
+
+* Use raramente, sério só em emergências.
+* Não é uma boa prática.
+* Ela quebra o fluxo natural da cascata.
