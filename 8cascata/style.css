@@ -1,0 +1,32 @@
+html {
+    font-family: 'SF Pro Display';
+}
+
+h1 {
+    color: brown;
+    font-size: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* Funcionará apenas a font-family, pois as outras duas regras foram sobrescritas por técnicas que tem mais força. */
+}
+
+section {
+    margin-top: 10px;
+    background-color: #eeeeee;
+    padding: 10px;
+}
+
+/* especificidade */
+
+h2 /* 1pt */ {
+    color: gray;
+}
+
+h2.nivel-1 /* 1 + 1 = 2pt */{
+    text-transform: uppercase;
+    color: #363570
+}
+
+h2 span#color-red /* 100 + 1 + 1 = 102pt */{
+    color: rgb(228, 54, 54);
+    font-size: 40px;
+}

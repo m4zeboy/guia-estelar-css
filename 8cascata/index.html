@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        h1 {
+            font-size: 50px;
+            color: limegreen;
+        }
+        /* Não funcionará a cor*/
+    </style>
+</head>
+<body>
+    <section id="origem-do-estilo">
+        <p>Nessa seção usamos a orgiem dos estilos para determinar a escolha da aplicação dos estilos</p>
+        <h1 style="color: rgb(77, 233, 129)">Origem do Estilo</h1>
+        <p>O título h1 acima apresenta um estilo inline que altera a sua cor, outro estilo com a tag style que altera o seu tamanho e outra definição em um arquivo externo que altera a fonte. <br> Para todas as sobrescrições de estilos vale a regra da força de origem do estilo: <strong>inline > tag style > tag link</strong></p>
+    </section>
+
+    <section id="especificidade">
+        <p>Aqui veremos como funciona a especificidade</p>
+        <h2>Título cinza</h2>
+        <small>Este título está pegando o estilo por uma definição usando <em>element selector</em> que define os estilos dos h2.</small>
+        <h2 class="nivel-1">Título com classe</h2>
+        <h2>Lorem Ipsum <span id="color-red">Dolor</span>.</h2>
+        <small>O span dentro desse título tem um ID que sobrescreve sua cor e seu tamanho.</small>
+    </section>
+
+</body>
+</html>
