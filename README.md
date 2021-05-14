@@ -30,4 +30,4 @@ Folhas de estilo em cascata.
 
 **Result**
 
-![título em vermelho](./print.png)
+![título em vermelho](./title.png)
